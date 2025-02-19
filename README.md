@@ -33,3 +33,27 @@ git -> 폴더(working tree) -- (uploard) --> stage area -- (확인 commit) -> re
 - 새로 만든 branch는 지금 작업하고 있는 마지막 commit 을 가르킨다
 ### Merge
 - 다른 branch의 내용을 현재 branch로 가져와 합치는 작업을 의미한다
+### git init
+```
+git 저장소를 초기화 ( not reset, 초기값 지정)
+저장소나 디텍토리 안에서 이 명령어를 실행하기 전 까지는 그냥 일반 폴더이다
+이 명령어를 입력한 후에야 추가적인 git 명령어 입력 가능
+```
+1. 아무 폴더나 만들고 폴더 내부를 오른쪽 클릭하여 git bash 실행
+2. git init 입력하면 git 이라는 폴더 생성되며 git 이 폴더 관리
+
+### git status
+```
+저장소 상태체크
+어떤 파일이 저장소 안에 있는지 commit이 필요한 변경사항이 있는지
+현재 저장소의 어ㅏ떤 branch에서 작업하고 있는지 등의 상태 정보 출력
+```
+
+- git config -- global user.name
+- git config -- global user.email
+- git daa . (. or -A)
+- git commit -m "커밋데이터"
+- git branch "새로운브랜치"
+- git checkout "옮길브랜치"
+- git remote origin "깃주소"
+- git push -u "origin master"
